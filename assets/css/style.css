@@ -25,12 +25,28 @@ img:hover {
     transform: translateY(4px);
 }
 
+figure {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+figcaption {
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+button {
+    padding: 0.3rem;
+}
+
 section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
     max-width: 80%;
 }
